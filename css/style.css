@@ -7,13 +7,75 @@
 
 /* GENERIC */
 
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: black;
+}
+
 h1{
     color: #E53170;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+p{
+    margin: 3rem 0;
+    font-size: 18px;
+}
+
+img{
+    height: 100px;
+    padding-right: 10px;
 }
 
 /* UTILITIES */
 
 .container{
+    width: 1550px;
+    margin: 5.5rem auto;
+    padding: 1rem 0;
+    background-color: white;
+    height: 760px;
+}
+
+.wrapper{
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* HEADER */
+
+header{
+    margin: 2rem 0;
+}
+
+/* LAYOUT */
+
+.colonum{
+    float: left;
+    width: calc(100%/3);
+    
+}
+
+.row{
+    margin:0 1.5rem;
+
+}
+
+.card{
+    margin:0.5rem;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.card img{
+    float: left;
 }
