@@ -28,6 +28,11 @@ img{
     padding-right: 10px;
 }
 
+a{
+    color: #539AB2;
+    text-decoration: none;
+}
+
 /* UTILITIES */
 
 .container{
@@ -50,18 +55,22 @@ img{
     content: '';
 }
 
+.info-layout{
+    padding-top: 0.9rem;
+    line-height: 25PX;
+}
+
 /* HEADER */
 
 header{
     margin: 2rem 0;
 }
 
-/* LAYOUT */
+/* LAYOUT ROW AND COLONUM*/
 
 .colonum{
     float: left;
     width: calc(100%/3);
-    
 }
 
 .row{
@@ -69,12 +78,14 @@ header{
 
 }
 
+/* LAYOUT CARD */
+
 .card{
-    margin:0.5rem;
+    margin:0.6rem;
     background-color: black;
     color: white;
     text-align: left;
-}
+    }
 
 .card img{
     float: left;
